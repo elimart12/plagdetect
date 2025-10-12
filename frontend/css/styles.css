@@ -1,0 +1,14 @@
+.modal { display: none; }
+.modal.active { display: flex; }
+.sidebar { transform: translateX(-100%); transition: transform 0.3s ease; }
+.sidebar.active { transform: translateX(0); }
+
+/* Colores y UI personalizados */
+:root {
+  --color-main: #4f46e5;
+  --color-accent: #22c55e;
+}
+
+body {
+  font-family: 'Inter', sans-serif;
+}
