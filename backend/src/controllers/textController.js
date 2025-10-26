@@ -1,5 +1,5 @@
 // -------------------------------------------------
-// 🧠 textController.js
+//  textController.js
 // Controla análisis de texto con IA simulada
 // -------------------------------------------------
 import { limitCheck } from "../utils/limiter.js";
@@ -14,7 +14,7 @@ export const analyzeText = async (req, res) => {
     });
   }
 
-  // 🔽 Aquí irá la llamada real a la IA en el Avance 3
+  //  Aquí irá la llamada real a la IA en el Avance 3
   const aiResponse = await analyzeTextWithAI(text);
 
   res.json({ success: true, analysis: aiResponse });
@@ -22,7 +22,7 @@ export const analyzeText = async (req, res) => {
 
 // Simulación de IA
 async function analyzeTextWithAI(text) {
-  // 🔮 En Avance 3 se reemplazará con API real de OpenAI o Python Flask
+  //  En Avance 3 se reemplazará con API real de OpenAI o Python Flask
   const resumen = text.split(" ").slice(0, 20).join(" ") + "...";
   return { summary: resumen, plagiarism: "12%" };
 }

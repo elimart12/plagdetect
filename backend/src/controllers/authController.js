@@ -1,5 +1,5 @@
 // -------------------------------------------------
-// 🧠 AuthController.js
+//  AuthController.js
 // Maneja registro, login y validación de usuarios
 // -------------------------------------------------
 import nodemailer from "nodemailer";
@@ -33,6 +33,6 @@ export const login = (req, res) => {
 
 // Email simulado
 async function sendConfirmationEmail(to) {
-  console.log(`📧 Simulando envío de correo a ${to}`);
+  console.log(`Simulando envío de correo a ${to}`);
   // Aquí puedes integrar Nodemailer real con SMTP o Gmail API
 }

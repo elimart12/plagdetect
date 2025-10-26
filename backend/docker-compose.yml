@@ -1,5 +1,5 @@
 # ----------------------------------------
-# 🐋 DOCKER COMPOSE - PlagDetect Proyecto Final
+#  DOCKER COMPOSE - PlagDetect Proyecto Final
 # Orquestación de servicios: Backend + Frontend
 # ----------------------------------------
 version: '3.9'
@@ -27,9 +27,9 @@ services:
       - backend
 
 # ----------------------------------------
-# 🧠 Cómo usar:
-# 1️⃣ docker-compose build
-# 2️⃣ docker-compose up
+# Cómo usar:
+# 1️ docker-compose build
+# 2️ docker-compose up
 # Luego acceder:
 # - Backend: http://localhost:4000
 # - Frontend: http://localhost:8080

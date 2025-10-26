@@ -2,7 +2,7 @@
 // api.js - Conexión con el backend (Node.js)
 // ======================================
 
-// ⚙️ URL base del backend
+//  URL base del backend
 const API_URL = "http://localhost:4000/api";
 
 // ========== AUTH ==========

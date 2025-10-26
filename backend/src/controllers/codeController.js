@@ -1,5 +1,5 @@
 // -------------------------------------------------
-// 💻 codeController.js
+// codeController.js
 // Analiza similitud de código fuente
 // -------------------------------------------------
 export const analyzeCode = (req, res) => {

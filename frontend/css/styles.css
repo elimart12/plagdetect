@@ -12,3 +12,12 @@
 body {
   font-family: 'Inter', sans-serif;
 }
+/* Modales ocultos por defecto */
+.modal {
+  display: none;
+}
+
+/* Modal activo */
+.modal.active {
+  display: flex !important;
+}

@@ -2,7 +2,7 @@
 // modules.js - Módulos funcionales (texto, código, resumen, etc.)
 // ======================================
 
-// 🧠 Módulo de análisis de texto
+//  Módulo de análisis de texto
 async function handleAnalyzeText() {
   const userText = prompt("Pega aquí tu texto:");
   if (!userText) return;
@@ -28,7 +28,7 @@ async function handleAnalyzeText() {
   }
 }
 
-// 💻 Módulo de análisis de código
+//  Módulo de análisis de código
 async function handleAnalyzeCode() {
   const code = prompt("Pega tu código:");
   if (!code) return;

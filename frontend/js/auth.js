@@ -10,7 +10,7 @@ document.getElementById("modals").innerHTML = `
 <div id="loginModal" class="modal fixed inset-0 bg-black bg-opacity-50 items-center justify-center">
   <div class="bg-white p-8 rounded-xl shadow-lg w-96 relative text-center">
     <button onclick="closeLogin()" class="absolute top-2 right-2 text-xl font-bold">❌</button>
-    <h3 class="text-2xl font-bold mb-4">🔑 Iniciar Sesión</h3>
+    <h3 class="text-2xl font-bold mb-4"> Iniciar Sesión</h3>
     <input type="email" id="loginEmail" class="border p-2 w-full mb-4" placeholder="Correo">
     <input type="password" id="loginPass" class="border p-2 w-full mb-4" placeholder="Contraseña">
     <button onclick="loginUser()" class="bg-indigo-600 text-white px-6 py-2 rounded-lg w-full mb-3">Ingresar</button>
@@ -26,7 +26,7 @@ document.getElementById("modals").innerHTML = `
 <div id="registerModal" class="modal fixed inset-0 bg-black bg-opacity-50 items-center justify-center">
   <div class="bg-white p-8 rounded-xl shadow-lg w-96 relative text-center">
     <button onclick="closeRegister()" class="absolute top-2 right-2 text-xl font-bold">❌</button>
-    <h3 class="text-2xl font-bold mb-4">📝 Registro</h3>
+    <h3 class="text-2xl font-bold mb-4"> Registro</h3>
     <input type="text" id="regUser" class="border p-2 w-full mb-4" placeholder="Usuario">
     <input type="email" id="regEmail" class="border p-2 w-full mb-4" placeholder="Correo">
     <input type="password" id="regPass" class="border p-2 w-full mb-4" placeholder="Contraseña">
@@ -57,7 +57,7 @@ function registerUser() {
   const email = document.getElementById("regEmail").value;
   localStorage.setItem("loggedUser", email);
   isLogged = email;
-  alert("Registro exitoso. Verifica tu correo (simulado).");
+  alert("Registro exitoso. Verifica tu correo .");
   closeRegister();
 }
 

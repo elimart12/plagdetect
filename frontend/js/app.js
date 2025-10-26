@@ -2,11 +2,11 @@
 // app.js - Control principal del frontend
 // ======================================
 
-// 🔐 Estado del usuario (usamos localStorage para simular sesión)
+//  Estado del usuario (usamos localStorage para simular sesión)
 let loggedUser = localStorage.getItem("userEmail") || null;
 
 // =======================
-// 🧭 MODALES
+//  MODALES
 // =======================
 function openModal(id) {
   document.getElementById(id).classList.add("active");
@@ -16,7 +16,7 @@ function closeModal(id) {
 }
 
 // =======================
-// 🧠 LOGIN / REGISTRO
+//  LOGIN / REGISTRO
 // =======================
 async function handleLogin() {
   const email = document.getElementById("loginEmail").value;
@@ -54,7 +54,7 @@ function logout() {
 }
 
 // =======================
-// 📋 FUNCIONES DE MÓDULOS
+//  FUNCIONES DE MÓDULOS
 // =======================
 
 // Analizar texto
@@ -80,14 +80,14 @@ async function analyzeCodeModule() {
 }
 
 // =======================
-// 🌎 IDIOMA Y CONFIG
+//  IDIOMA Y CONFIG
 // =======================
 function changeLanguage(lang) {
   alert(`Idioma cambiado a: ${lang}`);
 }
 
 // =======================
-// 💳 SUSCRIPCIÓN
+//  SUSCRIPCIÓN
 // =======================
 function paySubscription() {
   closeModal("payModal");
@@ -95,7 +95,7 @@ function paySubscription() {
 }
 
 // =======================
-// 🎛️ INTERFAZ / EVENTOS
+//  INTERFAZ / EVENTOS
 // =======================
 
 // Abre login modal
